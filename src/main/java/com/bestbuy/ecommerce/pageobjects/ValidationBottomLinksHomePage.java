@@ -469,7 +469,7 @@ public class ValidationBottomLinksHomePage {
 	}
 	
 	public void validatecadonotsellorsharemypersonalinformation() {
-		String ExpectedTitle = " Start Request - Best Buy ";
+		String ExpectedTitle = "Start Request - Best Buy";
 		Assert.assertEquals(ExpectedTitle, driver.getTitle());
 	}
 	
@@ -493,7 +493,7 @@ public class ValidationBottomLinksHomePage {
 	}
 	
 	public void validatetargetedadvertisingoptout() {
-		String ExpectedTitle = " Start Request - Best Buy ";
+		String ExpectedTitle = "Start Request - Best Buy";
 		Assert.assertEquals(ExpectedTitle, driver.getTitle());
 	}
 	
