@@ -32,7 +32,7 @@ public class SelectandaddanitemfromMenuàBrandsàSelectAnyBrandPage {
 		menubutton.click();
 	}
 	
-	@FindBy (xpath = "//button[@data-id='node-86']")
+	@FindBy (xpath = "(//button[@class='c-button-unstyled top-four v-fw-medium'])[3]")
 	WebElement brandsbutton;
 	
 	public void clickonbrandsbutton() {
